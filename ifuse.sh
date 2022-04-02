@@ -1,9 +1,5 @@
 #!/bin/sh
 
-#
-#   ifuse manual installation since macfuse is closed source. You need macFUSE and Homebrew installed on your computer and AFS2 on the iPhone.
-#
-
 # Install dependencies with brew
 brew install autoconf automake libtool pkg-config glib libimobiledevice libplist cython openssl
 
@@ -38,12 +34,4 @@ git clone https://github.com/libimobiledevice/ifuse.git
 cd ifuse
 ./autogen.sh
 make
-sudo make install 
-
-
-# After a reboot if you have restricted KEXT use
-idevicepair pair
-umount ifuse@macfuse0
-cd ~
-mkdir -p iPhone
-ifuse iPhone --root
+sudo make install
