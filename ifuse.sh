@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #
-#   ifuse manual installation since macfuse is closed source. You need AFS2 installed on the iPhone side.
+#   ifuse manual installation since macfuse is closed source. You need macFUSE and Homebrew installed on your computer and AFS2 on the iPhone.
 #
 
 # Install dependencies with brew
