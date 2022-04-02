@@ -4,7 +4,7 @@
  
 This is a script to manualy install ifuse on macOS to connect to your iPhone filesystem with a USB cable, no more SSH or SFTP needed ! Before macFuse went closed-source, you could do all that with Homebrew, now your need to compile yourself a number of packages.
 
-## Requirement
+## Requirements
 
 - macFUSE and Homebrew on your computer 
 - Root jailbreak and AFS2 on the iPhone
